@@ -14,7 +14,7 @@ deploy:
   region: "us-east-2"
   app: "docker-react"
   env: "DockerReact-env"
-  bucket_name: "$AWS_BEANSTALK_NAME"
+  bucket: "$AWS_BEANSTALK_NAME"
   bucket_path: "docker-react"
   on:
     branch: main
